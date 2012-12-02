@@ -1,7 +1,7 @@
 Grepolis JSON API
 =====================
 
-This is a PHP based Grepolis JSON API. It gets the gZipped Grepolis CSV data from the specified world server and parses it into a useable JSON formate for client side consumption.
+This is a PHP based Grepolis JSON API. It gets the gZipped Grepolis CSV data from the specified world server and parses it into a useable JSON formate for client side consumption. It also Adds in useful information and formatting like which oceans towns and islands are in as well as allied/unallied user lists etc.
 
 It also uses CORS to allow direct Javascript or JQuery request from remote domains.
 
