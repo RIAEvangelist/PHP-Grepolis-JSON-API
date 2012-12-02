@@ -22,7 +22,7 @@ $.get(
                 {
                     json:JSON.stringify(
                         {
-                            "player_name":data.data.players[data.data.unallied[0]].name,
+                            "player_name":data.data.players[data.data.unallied[i]].name,
                             "town_id":town_id,
                             "nlreq_id":0
                         }

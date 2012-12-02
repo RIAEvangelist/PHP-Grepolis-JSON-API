@@ -32,7 +32,7 @@
             continue;
         $response['data']['players'][$player[0]]=array(
             'ID'        => $player[0],
-            'name'      => $player[1],
+            'name'      => urldecode($player[1]),
             'allianceID'=> $player[2],
             'points'    => $player[3],
             'rank'      => $player[4],
